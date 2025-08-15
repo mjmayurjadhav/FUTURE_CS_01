@@ -23,6 +23,12 @@ Conduct vulnerability assessment on a sample web application using OWASP methodo
 **Internship:** Future Interns  
 **Month:** August 2025
 
+### Screenshots Reference
+- sqli.png -> SQL Injection login bypass
+- xss.png -> XSS alert message
+- csrf.png -> CSRF GET request successful
+- zap.png -> ZAP scan result
+
 ## Conclusion
 Successfully identified and demonstrated SQLi, XSS, and CSRF vulnerabilities using WebGoat and OWASP ZAP. The findings are documented in the attached report.
 
